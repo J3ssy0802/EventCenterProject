@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    background-color: black;
+}
+
+/*The Navigation Bar*/
+nav {
+    background-color: cadetblue;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.category-header {
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    text-align: left;
+    margin-top: 40px;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    background-color: cadetblue;
+}
