@@ -30,7 +30,7 @@ a {
     text-decoration: none;
     color: white;
     padding: 10px;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 a:hover {
@@ -51,7 +51,7 @@ a:hover {
     nav ul li {
         width: 100%;
         text-align: center;
-        padding: 10px 0;
+        padding: 5px 0;
     }
 }
 
@@ -65,7 +65,7 @@ h1 {
     color:cadetblue
 }
 
-p {
+section p {
     text-align: center;
     padding: 20px;
     margin: 20px;
@@ -102,4 +102,23 @@ iframe {
     border-radius: 10px;
     width: 80%;
     height: 400px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 50px;
+    margin: 0px;
+    width: 100%;
+    font-family: tahoma, sans-serif;
+    font-size: 18px;
+    gap: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
 }

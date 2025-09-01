@@ -30,7 +30,7 @@ a {
     text-decoration: none;
     color: white;
     padding: 10px;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 a:hover {
@@ -51,7 +51,7 @@ a:hover {
     nav ul li {
         width: 100%;
         text-align: center;
-        padding: 10px 0;
+        padding: 5px 0;
     }
 }
 
@@ -99,7 +99,7 @@ button:hover {
     background-color: darkcyan;
 }
 
-p {
+section p {
     text-align: center;
     padding: 0px;
     margin: 20px;
@@ -118,6 +118,21 @@ h2 {
     color: cadetblue;
 }
 
-main {
-    padding: 20px;
+footer {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 50px;
+    margin: 0px;
+    width: 100%;
+    font-family: tahoma, sans-serif;
+    font-size: 18px;
+    gap: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
 }
